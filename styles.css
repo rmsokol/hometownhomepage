@@ -1,0 +1,120 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+id # use only once 
+class . apply to many elements 
+element can have multiple
+
+*/
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: fit-content; */
+}
+
+.hero {
+    height: 500px;
+    background-image: url("/images/whitehouse.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+} 
+
+h1 {
+    color: whitesmoke;
+    background-color: #1D3557;
+    padding: 1em; 
+}
+
+h2 {
+    color: whitesmoke;
+    background-color: rgba(69, 123, 157, .6);
+    width: fit-content;
+    padding: 1em .5em;
+    text-align: center;
+}
+
+.activities {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+span {
+    color: red;
+}
+
+.activities > div {
+    max-width: 300px;
+    padding: 2em;   
+
+}
+
+img.snaps {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.guide {
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #457B9D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    border-bottom: 10px solid #1D3557;
+}
+
+img {
+    padding: 2em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1em;
+    font-style: italic;
+    flex-wrap: wrap;
+    padding: 2em;
+    
+}
+
+h4 {
+    font-size: 1em;
+}
+
+
+
+
+
+
+/* .guide {
+    
+    /* width: auto;
+    height: auto;
+    border-radius: 15px;
+    border-bottom: 5px solid #1D3557;
+    background-color: #A8DADC;
+    color: #1D3557;
+    font-size: 1em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 2em;  */
